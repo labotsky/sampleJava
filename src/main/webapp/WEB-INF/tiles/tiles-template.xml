@@ -14,6 +14,12 @@
 	    <put-attribute name="body" value="/WEB-INF/views/static_pages/home.jsp" />
 	</definition>
 	
+	<definition name="login" extends="common">
+	    <put-attribute name="title" value="Sign in" />
+	    <put-attribute name="body" value="/WEB-INF/views/static_pages/login.jsp" />
+	    <put-attribute name="footer" value="" />
+	</definition>
+	
 	<definition name="help" extends="common">
 	    <put-attribute name="title" value="Help" />
 	    <put-attribute name="body" value="/WEB-INF/views/static_pages/help.jsp" />
