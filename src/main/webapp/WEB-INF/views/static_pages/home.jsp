@@ -1,4 +1,4 @@
-<%@include file="../settings.jsp" %>
+<%@include file="../../settings.jsp" %>
 <div class="center hero-unit">
 	<h1>Welcome to the Sample App</h1>
 	<p>

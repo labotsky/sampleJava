@@ -9,8 +9,23 @@
 	    <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
 	</definition>
 	
-	<definition name="index" extends="common">
+	<definition name="home" extends="common">
 	    <put-attribute name="title" value="Sample App" />
-	    <put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+	    <put-attribute name="body" value="/WEB-INF/views/static_pages/home.jsp" />
+	</definition>
+	
+	<definition name="help" extends="common">
+	    <put-attribute name="title" value="Help" />
+	    <put-attribute name="body" value="/WEB-INF/views/static_pages/help.jsp" />
+	</definition>
+	
+	<definition name="about" extends="common">
+	    <put-attribute name="title" value="About" />
+	    <put-attribute name="body" value="/WEB-INF/views/static_pages/about.jsp" />
+	</definition>
+	
+	<definition name="contact" extends="common">
+	    <put-attribute name="title" value="Contact" />
+	    <put-attribute name="body" value="/WEB-INF/views/static_pages/contact.jsp" />
 	</definition>
 </tiles-definitions>

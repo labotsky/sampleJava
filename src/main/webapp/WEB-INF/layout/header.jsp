@@ -1,11 +1,12 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <div class="navbar navbar-inverse  navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
 			<a href="#" id="logo">SAMPLE APP</a>
 			<nav>
 				<ul class="nav pull-right">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Help</a></li>
+					<li><a href="<c:url value='/home'/>">Home</a></li>
+					<li><a href="<c:url value='/help'/>">Help</a></li>
 					<li><a href="#">Users</a></li>
 					<li id="fat-menu" class="dropdown"><a href="#"
 						class="dropdown-toggle" data-toggle="dropdown"> Account <b
