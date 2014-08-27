@@ -15,6 +15,11 @@ public class StaticPagesController {
 	public String index(){
 		return "home";
 	}
+
+	@RequestMapping("/")
+	public String index(){
+		return "home";
+	}
 	
 	@RequestMapping("/home")
 	public String home(){
