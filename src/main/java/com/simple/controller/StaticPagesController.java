@@ -15,11 +15,6 @@ public class StaticPagesController {
 	public String home(){
 		return "home";
 	}
-
-	@RequestMapping("/test")
-	public String test(){
-		return "test";
-	}
 	
 	@RequestMapping("/login")
 	public String login(){
