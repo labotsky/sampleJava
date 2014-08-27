@@ -57,4 +57,9 @@ public class StaticPagesController {
 		return "contact";
 	}
 
+	@RequestMapping("/contact")
+	public String contact(){
+		return "contact";
+	}
+
 }
