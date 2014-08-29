@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class StaticPagesController {
 
-	111	
+	222	
 	@RequestMapping("/aaa222")
 	public String index(){
 		return "home";
